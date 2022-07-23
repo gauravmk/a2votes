@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>Enter address</h1>
+{% endblock %}
+
+{% block content %}
+  <div style="margin-top: 48px" class="row justify-content-md-center">
+    <div class="col-md-6">
+      <p>Enter your address to find your polling location</p>
+      <form action="/results" method="get">
+        <input style="font-size: 16px; width: 100%; margin-bottom: 16px" type="text" id="addr" name="addr" />
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}
+
