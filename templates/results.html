@@ -6,10 +6,10 @@
 
 {% block content %}
   {% if polling_place %}
-    <div style="width: 600px; margin: auto; margin-top: 48px">
-    <div style="margin-bottom: 24px">Your polling place is at: <b>{{ polling_place['label'] }}</b></div>
-    <iframe width="600" height="400" style="border:0" loading="lazy" allowfullscreen
-src="https://www.google.com/maps/embed/v1/directions?origin={{ addr }}&destination={{ polling_place['addr'] }}&key=AIzaSyCmSSbXdbZz9G6S-_mofjL7mIHKbNTzDKg&mode=walking"></iframe>
+    <div style="max-width: 600px; margin: auto; margin-top: 48px">
+      <div style="margin-bottom: 24px">Your polling place is at: <b>{{ polling_place['label'] }}</b></div>
+        <iframe style="border:0; width:100%; height:400px" loading="lazy" allowfullscreen
+  src="https://www.google.com/maps/embed/v1/directions?origin={{ addr }}&destination={{ polling_place['addr'] }}&key=AIzaSyCmSSbXdbZz9G6S-_mofjL7mIHKbNTzDKg&mode=walking"></iframe>
     </div>
   {% else %}
     <div>Could not find</div>
