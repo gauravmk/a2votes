@@ -1,14 +1,13 @@
 {% extends 'base.html' %}
 
-{% block header %}
-  <h1>Results</h1>
+{% block head %}
+  <link href="https://mvic.sos.state.mi.us/Content/css?v=DQN-ALpJmhZoH0SqzqhYTC81_oNlNOEdo_Nlj8XUx-c1" rel="stylesheet" />
 {% endblock %}
 
 {% block content %}
   {% if polling_place %}
-    <div style="max-width: 600px; margin: auto; margin-top: 48px">
       <div style="display: flex; flex-wrap: wrap; margin-bottom: 24px">
-        <div style="flex-grow: 1; margin-right: 12px; margin-bottom: 12px">Your polling place is at: <b>{{ polling_place['label'] }}</b></div>
+        <div style="flex-grow: 1; font-size: 16px; margin-right: 12px; margin-bottom: 12px">Your polling place is at: <b>{{ polling_place['label'] }}</b></div>
         <a
           class="btn btn-primary btn-sm"
           style="flex-shrink: 0; min-width: 112px; height: 32px"
@@ -24,7 +23,9 @@
         allowfullscreen
         src="https://www.google.com/maps/embed/v1/directions?origin={{ addr }}&destination={{ polling_place['addr'] }}&key=AIzaSyCmSSbXdbZz9G6S-_mofjL7mIHKbNTzDKg&mode=walking">
       </iframe>
-    </div>
+      <hr style="border-top: 1px solid #777" />
+      <h4 style="margin-top: 24px; margin-bottom: 24px">Ballot Preview</h4>
+      {{ ballot_preview | safe }}
   {% else %}
     <div>Could not find</div>
   {% endif %}

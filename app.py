@@ -3,6 +3,7 @@ from pyproj import Transformer
 from shapely.geometry import asShape, Point
 from dotenv import load_dotenv
 import os
+import requests
 import fiona
 import googlemaps
 import json
@@ -10,12 +11,30 @@ import json
 load_dotenv()
 gmaps = googlemaps.Client(key=os.getenv("GOOGLE_PLACES_API_KEY"))
 
-app = Flask(__name__)
+cached_ballot_previews = {}
+
+app = Flask(__name__, static_url_path="/Content")
 
 transformer = Transformer.from_crs("epsg:4326", "epsg:2253", always_xy=True)
 
 f = open("polling_locations.json")
 polling_locations = json.load(f)
+
+
+def fetch_ballot_preview(ward, precinct):
+    wardpct = f"{int(ward):02}{int(precinct):03}"
+    if wardpct not in cached_ballot_previews:
+        res = requests.post(
+            "https://mvic.sos.state.mi.us/PublicBallot/GetMvicBallot",
+            data={
+                "ElectionID": 690,
+                "CountyID": 81,
+                "JurisdictionID": 1375,
+                "WardPrecinct": wardpct,
+            },
+        )
+        cached_ballot_previews[wardpct] = res.json()["Ballot"]
+    return cached_ballot_previews[wardpct]
 
 
 precincts = []
@@ -82,16 +101,19 @@ def results():
         return render_template("results.html")
 
     location = geocode_result[0]["geometry"]["location"]
-    precinct = getPrecinct(location["lat"], location["lng"])
-    polling_place = polling_locations[precinct]
+    wardpct = getPrecinct(location["lat"], location["lng"])
+    polling_place = polling_locations[wardpct]
     polling_place["addr"] += ", Ann Arbor MI"
+    ward, precinct = wardpct.split("-")
 
     return render_template(
         "results.html",
         addr=request.args["addr"],
         location=location,
+        ward=ward,
         precinct=precinct,
         polling_place=polling_place,
+        ballot_preview=fetch_ballot_preview(ward, precinct),
     )
 
 
