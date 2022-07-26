@@ -102,6 +102,9 @@ def results():
 
     location = geocode_result[0]["geometry"]["location"]
     wardpct = getPrecinct(location["lat"], location["lng"])
+    if not wardpct:
+        return render_template("results.html")
+
     polling_place = polling_locations[wardpct]
     polling_place["addr"] += ", Ann Arbor MI"
     ward, precinct = wardpct.split("-")
