@@ -89,6 +89,9 @@ def index():
 def results():
     if "addr" not in request.args:
         return render_template("results.html")
+    addr = request.args["addr"].lower()
+    if ('ann arbor' not in addr):
+        addr += ", ann arbor mi"
 
     geocode_result = gmaps.geocode(
         request.args["addr"],
@@ -111,7 +114,7 @@ def results():
 
     return render_template(
         "results.html",
-        addr=request.args["addr"],
+        addr=addr,
         location=location,
         ward=ward,
         precinct=precinct,
