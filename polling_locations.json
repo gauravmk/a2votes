@@ -1,17 +1,16 @@
 {
   "1-1": { "label": "Michigan Union", "addr": "530 S. State St." },
-  "1-2": { "label": "Hands On Museum", "addr": "220 E. Ann" },
-  "1-3": { "label": "Hands On Museum", "addr": "220 E. Ann" },
+  "1-2": { "label": "Community High School", "addr": "401 N. Division St." },
   "1-4": {
     "label": "Ann Arbor City Hall",
     "addr": "301 E. Huron St."
   },
   "1-5": {
-    "label": "Northside School",
+    "label": "A2 STEAM @ Northside",
     "addr": "912 Barton Drive"
   },
   "1-6": {
-    "label": "Northside School",
+    "label": "A2 STEAM @ Northside",
     "addr": "912 Barton Drive"
   },
   "1-7": {
@@ -30,40 +29,23 @@
     "label": "Arrowwood Hills Community Center",
     "addr": "2566 Arrowwood Trail "
   },
-  "1-11": {
-    "label": "Logan Elementary School",
-    "addr": "2685 Traver Rd."
-  },
-  "1-12": { "label": "Michigan Union", "addr": "530 S. State St." },
   "2-13": {
-    "label": "Northwood Comm. Center (Family Housing)",
-    "addr": "1000 McIntyre Drive"
+    "label": "King School",
+    "addr": "3800 Waldenwood Dr."
   },
   "2-14": {
-    "label": "Palmer Commons",
-    "addr": "100 Washtenaw Avenue"
-  },
-  "2-15": {
-    "label": "Angell School",
-    "addr": "1608 S University Avenue"
+    "label": "Angell Elementary School",
+    "addr": "1608 S. University Ave."
   },
   "2-16": {
-    "label": "Angell School",
-    "addr": "1608 S University Avenue"
-  },
-  "2-17": {
-    "label": "Ann Arbor Assembly of God",
-    "addr": "2455 Washtenaw Avenue"
+    "label": "AA Assembly of God",
+    "addr": "2455 Washtenaw Ave."
   },
   "2-18": {
-    "label": "Thurston Elementary School",
-    "addr": "2300 Prairie Street"
+    "label": "Clague Middle School",
+    "addr": "2616 Nixon Rd."
   },
   "2-19": { "label": "King School", "addr": "3800 Waldenwood Dr." },
-  "2-20": {
-    "label": "First United Methodist Church",
-    "addr": "1001 Green Road"
-  },
   "2-21": {
     "label": "Thurston School",
     "addr": "2300 Prairie Street"
@@ -77,49 +59,44 @@
     "addr": "911 N University Avenue"
   },
   "3-24": {
-    "label": "Burns Park Elementary School",
-    "addr": "1414 Wells St."
-  },
-  "3-25": {
-    "label": "Allen School",
-    "addr": "2560 Towner Boulevard"
+    "label": "Ann Arbor Senior Center",
+    "addr": "1320 Baldwin Ave."
   },
   "3-26": {
     "label": "University Townhouses Center",
     "addr": "3200 Braeburn Circle,Ann Arbor, MI 48108"
   },
   "3-27": {
-    "label": "Mitchell Elementary School",
-    "addr": "3550 Pittsview Dr.,Ann Arbor, MI 48108"
+    "label": "Scarlett Middle School",
+    "addr": "3300 Lorraine St."
   },
   "3-28": {
     "label": "Allen School",
     "addr": "2560 Towner Boulevard"
   },
   "3-29": {
-    "label": "Mitchell Elementary School",
-    "addr": "3550 Pittsview Dr."
+    "label": "Pittsfield Elementary School",
+    "addr": "2543 Pittsfield Blvd."
   },
   "3-30": {
-    "label": "Mitchell Elementary School",
-    "addr": "3550 Pittsview Dr.,Ann Arbor, MI 48108"
+    "label": "Scarlett Middle School",
+    "addr": "3300 Lorraine St."
   },
-  "4-31": { "label": "U-M Coliseum", "addr": "721 S. Fifth Ave." },
+  "4-31": {
+    "label": "Michigan Union",
+    "addr": "530 S. State St."
+  },
   "4-32": {
-    "label": "Mary St. Polling Place",
-    "addr": "926 Mary Street"
+    "label": "U-M Coliseum",
+    "addr": "721 S. Fifth Ave."
   },
   "4-33": {
-    "label": "U-M Coliseum",
-    "addr": "Fifth Avenue and Hill Street"
+    "label": "St. Clare Church/Temple Beth Emeth",
+    "addr": "2309 Packard St."
   },
   "4-34": {
     "label": "Pioneer High School",
     "addr": "601 W Stadium Boulevard"
-  },
-  "4-35": {
-    "label": "St. Clare/Temple Beth Emeth",
-    "addr": "2309 Packard Road,Ann Arbor, MI 48197"
   },
   "4-36": { "label": "Cobblestone Farm", "addr": "2781 Packard" },
   "4-37": {
@@ -134,18 +111,13 @@
     "label": "Lawton School",
     "addr": "2550 S Seventh Street"
   },
-  "4-40": {
-    "label": "Lawton School",
-    "addr": "2550 S Seventh Street"
-  },
-  "4-41": { "label": "Michigan Union", "addr": "530 S. State St." },
   "5-42": {
     "label": "Ann Arbor District Library",
     "addr": "343 S Fifth Avenue"
   },
   "5-43": {
-    "label": "Pioneer High School",
-    "addr": "601 W Stadium"
+    "label": "Bach School",
+    "addr": "600 W. Jefferson St."
   },
   "5-44": {
     "label": "Ann Arbor Open School",
@@ -155,13 +127,9 @@
     "label": "Slauson Middle School",
     "addr": "1019 W Washington Street"
   },
-  "5-46": {
-    "label": "Slauson Middle School",
-    "addr": "1019 W Washington Street"
-  },
   "5-47": {
-    "label": "Slauson Middle School",
-    "addr": "1019 W Washington Street"
+    "label": "Eberwhite School",
+    "addr": "800 Soule Blvd."
   },
   "5-48": {
     "label": "Dicken School",
@@ -172,19 +140,15 @@
     "addr": "344 Gralake Avenue"
   },
   "5-50": {
-    "label": "Haisley School",
-    "addr": "825 Duncan Street"
+    "label": "Forsythe Middle School",
+    "addr": "1655 Newport Rd."
   },
   "5-51": {
     "label": "Abbot School",
     "addr": "2670 Sequoia Parkway"
   },
   "5-52": {
-    "label": "Ann Arbor Open School",
-    "addr": "920 Miller Ave."
-  },
-  "5-53": {
-    "label": "Ann Arbor Open School",
-    "addr": "920 Miller Ave."
+    "label": "Forsythe Middle School",
+    "addr": "1655 Newport Rd."
   }
 }
