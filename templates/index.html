@@ -11,7 +11,7 @@
 
 {% block content %}
   <h1 class="display-5 fw-bold">A2Votes</h1>
-  <p class="lead text-muted">This is a volunteer-made site that uses public data to show the polling location and a ballot preview based on an address within the city of Ann Arbor (sorry townships, it doesn't work for you yet). Enter an address below to try it out.</p>
+  <p class="lead text-muted">This is a volunteer-made site that uses public data to show the polling location based on an address within the city of Ann Arbor (sorry townships, it doesn't work for you yet). Enter an address below to try it out.</p>
   <form action="/results" onsubmit="javascript:showloading()" method="get">
     <input style="font-size: 16px; width: 100%; margin-bottom: 16px" type="text" id="addr" name="addr" />
     <button id="submit" type="submit" class="btn btn-primary">Search</button>

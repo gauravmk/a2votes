@@ -119,7 +119,6 @@ def results():
         ward=ward,
         precinct=precinct,
         polling_place=polling_place,
-        ballot_preview=fetch_ballot_preview(ward, precinct),
     )
 
 

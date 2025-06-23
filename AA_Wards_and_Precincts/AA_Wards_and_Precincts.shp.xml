@@ -4,10 +4,10 @@
     <CreaDate>20070508</CreaDate>
     <CreaTime>19103800</CreaTime>
     <SyncOnce>FALSE</SyncOnce>
-    <SyncDate>20220717</SyncDate>
-    <SyncTime>13351500</SyncTime>
-    <ModDate>20220717</ModDate>
-    <ModTime>13351500</ModTime>
+    <SyncDate>20250622</SyncDate>
+    <SyncTime>13353500</SyncTime>
+    <ModDate>20250622</ModDate>
+    <ModTime>13353500</ModTime>
     <DataProperties>
       <itemProps>
         <itemName Sync="TRUE">AA_Wards_and_Precincts</itemName>
@@ -34,7 +34,7 @@
       <minScale>150000000</minScale>
       <maxScale>5000</maxScale>
     </scaleRange>
-    <ArcGISProfile>FGDC</ArcGISProfile>
+    <ArcGISProfile>ItemDescription</ArcGISProfile>
     <ArcGISFormat>1.0</ArcGISFormat>
   </Esri>
   <idinfo>
@@ -189,7 +189,7 @@
         </GeoBndBox>
       </geoEle>
     </dataExt>
-    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Polygons of the City of Ann Arbor Voting Precincts.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Polygons of the City of Ann Arbor Voting Precincts.  Edited as requested by the City Clerk.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
     <idCredit>City of Ann Arbor Community Services</idCredit>
     <searchKeys>
       <keyword>Ann Arbor</keyword>
@@ -503,7 +503,7 @@
       </attr>
     </detailed>
   </eainfo>
-  <mdDateSt Sync="TRUE">20220717</mdDateSt>
+  <mdDateSt Sync="TRUE">20250622</mdDateSt>
   <dataqual>
     <lineage>
       <procstep>
@@ -514,6 +514,68 @@
       </procstep>
     </lineage>
   </dataqual>
+  <mdContact>
+    <editorSource>external</editorSource>
+    <editorDigest>51fbfe6aadb17c554d6dc0ce64cccb66</editorDigest>
+    <rpIndName>Scott Harrod</rpIndName>
+    <rpOrgName>City of Ann Arbor - Community Services</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntAddress addressType="postal">
+        <delPoint>301 E. Huron St</delPoint>
+        <city>Ann Arbor</city>
+        <adminArea>MI</adminArea>
+        <postCode>48104</postCode>
+        <eMailAdd>sjharrod@a2gov.org</eMailAdd>
+        <country>US</country>
+      </cntAddress>
+      <cntPhone>
+        <voiceNum tddtty="">734-794-6000</voiceNum>
+      </cntPhone>
+    </rpCntInfo>
+    <displayName>Scott Harrod</displayName>
+    <editorSave>True</editorSave>
+    <displayName>Scott Harrod</displayName>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="009" />
+    </maintFreq>
+    <maintCont>
+      <editorSource>external</editorSource>
+      <editorDigest>51fbfe6aadb17c554d6dc0ce64cccb66</editorDigest>
+      <rpIndName>Scott Harrod</rpIndName>
+      <rpOrgName>City of Ann Arbor - Community Services</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntAddress addressType="postal">
+          <delPoint>301 E. Huron St</delPoint>
+          <city>Ann Arbor</city>
+          <adminArea>MI</adminArea>
+          <postCode>48104</postCode>
+          <eMailAdd>sjharrod@a2gov.org</eMailAdd>
+          <country>US</country>
+        </cntAddress>
+        <cntPhone>
+          <voiceNum tddtty="">734-794-6000</voiceNum>
+        </cntPhone>
+      </rpCntInfo>
+      <displayName>Scott Harrod</displayName>
+      <editorSave>True</editorSave>
+      <displayName>Scott Harrod</displayName>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </maintCont>
+  </mdMaint>
+  <mdConst>
+    <Consts>
+      <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The City of Ann Arbor shall not be held liable for improper or incorrect use of this data. This data and related graphics are not legal documents and are not intended to be used as such. The information contained in this data is dynamic and may change over time. The data is not better than the original sources from which it was derived. It is the responsibility of the data user to use the data appropriately and within the limitations of geospatial data in general. The City of Ann Arbor gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of this data. It is strongly recommended that this data be directly acquired from the City of Ann Arbor, and not indirectly through other sources which may have changed the data in some way. This disclaimer applies both to individual use of the data and aggregate use with other data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+    </Consts>
+  </mdConst>
   <Binary>
     <Thumbnail>
       <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
@@ -583,66 +645,4 @@ mtWqqRb/ALYoZGUiNs8ZHVehq3XbhYuNJJrX/gkS3CiiiugQUUUUAFFFFABRRRQAUUUUAFFFFABR
 RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=</Data>
     </Thumbnail>
   </Binary>
-  <mdContact>
-    <editorSource>external</editorSource>
-    <editorDigest>51fbfe6aadb17c554d6dc0ce64cccb66</editorDigest>
-    <rpIndName>Scott Harrod</rpIndName>
-    <rpOrgName>City of Ann Arbor - Community Services</rpOrgName>
-    <rpPosName>GIS Coordinator</rpPosName>
-    <rpCntInfo>
-      <cntAddress addressType="postal">
-        <delPoint>301 E. Huron St</delPoint>
-        <city>Ann Arbor</city>
-        <adminArea>MI</adminArea>
-        <postCode>48104</postCode>
-        <eMailAdd>sjharrod@a2gov.org</eMailAdd>
-        <country>US</country>
-      </cntAddress>
-      <cntPhone>
-        <voiceNum tddtty="">734-794-6000</voiceNum>
-      </cntPhone>
-    </rpCntInfo>
-    <displayName>Scott Harrod</displayName>
-    <editorSave>True</editorSave>
-    <displayName>Scott Harrod</displayName>
-    <role>
-      <RoleCd value="007" />
-    </role>
-  </mdContact>
-  <mdMaint>
-    <maintFreq>
-      <MaintFreqCd value="009" />
-    </maintFreq>
-    <maintCont>
-      <editorSource>external</editorSource>
-      <editorDigest>51fbfe6aadb17c554d6dc0ce64cccb66</editorDigest>
-      <rpIndName>Scott Harrod</rpIndName>
-      <rpOrgName>City of Ann Arbor - Community Services</rpOrgName>
-      <rpPosName>GIS Coordinator</rpPosName>
-      <rpCntInfo>
-        <cntAddress addressType="postal">
-          <delPoint>301 E. Huron St</delPoint>
-          <city>Ann Arbor</city>
-          <adminArea>MI</adminArea>
-          <postCode>48104</postCode>
-          <eMailAdd>sjharrod@a2gov.org</eMailAdd>
-          <country>US</country>
-        </cntAddress>
-        <cntPhone>
-          <voiceNum tddtty="">734-794-6000</voiceNum>
-        </cntPhone>
-      </rpCntInfo>
-      <displayName>Scott Harrod</displayName>
-      <editorSave>True</editorSave>
-      <displayName>Scott Harrod</displayName>
-      <role>
-        <RoleCd value="007" />
-      </role>
-    </maintCont>
-  </mdMaint>
-  <mdConst>
-    <Consts>
-      <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The City of Ann Arbor shall not be held liable for improper or incorrect use of this data. This data and related graphics are not legal documents and are not intended to be used as such. The information contained in this data is dynamic and may change over time. The data is not better than the original sources from which it was derived. It is the responsibility of the data user to use the data appropriately and within the limitations of geospatial data in general. The City of Ann Arbor gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of this data. It is strongly recommended that this data be directly acquired from the City of Ann Arbor, and not indirectly through other sources which may have changed the data in some way. This disclaimer applies both to individual use of the data and aggregate use with other data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
-    </Consts>
-  </mdConst>
 </metadata>
