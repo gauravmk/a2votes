@@ -23,8 +23,9 @@
         allowfullscreen
         src="https://www.google.com/maps/embed/v1/directions?origin={{ addr }}&destination={{ polling_place['addr'] }}&key=AIzaSyCmSSbXdbZz9G6S-_mofjL7mIHKbNTzDKg&mode=walking">
       </iframe>
+      <p class="text-muted" style="margin-top: 12px">You can also check your registration status and polling place on the Secretary of State's <a href="https://mvic.sos.state.mi.us/Voter/Index">voter lookup tool</a>.</p>
   {% else %}
-    <div>Could not find</div>
+    <div>Could not find a polling place for your address. Check the Secretary of State's <a href="https://mvic.sos.state.mi.us/Voter/Index">voter lookup tool</a>.</div>
   {% endif %}
 {% endblock %}
 
