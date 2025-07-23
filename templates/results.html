@@ -7,7 +7,7 @@
 {% block content %}
   {% if polling_place %}
       <div style="display: flex; flex-wrap: wrap; margin-bottom: 24px">
-        <div style="flex-grow: 1; font-size: 16px; margin-right: 12px; margin-bottom: 12px">Ward: <b>{{ polling_place['ward'] }}</b></div>
+        <div style="flex-grow: 1; font-size: 16px; margin-right: 12px; margin-bottom: 12px">Ward: <b>{{ ward }}</b></div>
         <div style="flex-grow: 1; font-size: 16px; margin-right: 12px; margin-bottom: 12px">Your polling place is at: <b>{{ polling_place['label'] }}</b></div>
         <a
           class="btn btn-primary btn-sm"
